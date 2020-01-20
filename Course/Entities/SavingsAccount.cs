@@ -19,7 +19,7 @@
             Balance += Balance * InterestRate;
         }
 
-        public override void WithDraw(double amount)
+        public override void WithDraw(double amount) // Saque da Conta Poupança não cobra taxa de saque ao contrário da Conta Comum
         {
             Balance -= amount;
         }

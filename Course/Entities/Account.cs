@@ -17,7 +17,7 @@
             Balance = balance;
         }
 
-        public virtual void WithDraw(double amount)
+        public virtual void WithDraw(double amount) // O Saque da Conta Comum desconta 5.0 de despesa por saque
         {
             Balance -= amount + 5.0;
         }
