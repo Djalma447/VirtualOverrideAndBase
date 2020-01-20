@@ -18,5 +18,10 @@
         {
             Balance += Balance * InterestRate;
         }
+
+        public override void WithDraw(double amount)
+        {
+            Balance -= amount;
+        }
     }
 }
